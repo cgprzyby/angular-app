@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "docs/my-first-project",
+            "outputPath": "dist/my-first-project",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -31,8 +31,6 @@
           },
           "configurations": {
             "production": {
-              "baseHref": "/",
-              "deployUrl": "https://cgprzyby.github.io/angular-app",
               "fileReplacements": [
                 {
                   "replace": "src/environments/environment.ts",
