@@ -32,7 +32,7 @@
           "configurations": {
             "production": {
               "baseHref": "/",
-              "deployUrl": "https://cgprzyby.github.io/my-first-project",
+              "deployUrl": "https://cgprzyby.github.io/angular-app",
               "fileReplacements": [
                 {
                   "replace": "src/environments/environment.ts",
